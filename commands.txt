@@ -1,0 +1,2 @@
+sudo netstat -nltp 
+** see all the running processes in different ports in the system.
