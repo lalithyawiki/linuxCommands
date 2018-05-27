@@ -1,2 +1,8 @@
 sudo netstat -nltp 
 ** see all the running processes in different ports in the system.
+
+sudo fuser 8080/tcp
+** see the process running in a particular port.
+
+sudo fuser -k 8080/tcp
+** kill certain process that is running in a particular port.
